@@ -1,0 +1,171 @@
+/* reset
+--------------------------------------------------*/
+body,h1,h2,h3,h4,h5,h6,p,form,fieldset,ul,li,img,a {margin:0;padding:0;}
+
+html, body {
+height:100.1%;
+}
+
+
+/* body
+--------------------------------------------------*/
+body {
+  margin:0 0 20px 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:75%;
+  line-height:1.6em;
+  text-align:center;
+}
+
+/* container
+--------------------------------------------------*/
+#container {
+  width:790px;
+  margin:20px auto;
+  padding:20px 20px 0 20px;
+  text-align:left;
+}
+
+
+/* header
+--------------------------------------------------*/
+#header {
+  height:30px;
+  padding:0 0 0 0px;
+  border-bottom: 6px solid;
+  margin:0 0 0 0px;
+}
+
+
+/* navigation
+--------------------------------------------------*/
+#navigation {
+  float:left;
+  width:205px;
+}
+
+#navigation img {
+  margin: 6px 0;
+}
+
+#navigation ul {
+  margin: 0 0 0 0;
+  padding:0 0 0 0;
+}
+
+
+#navigation ul li {
+  margin:0 0 0 0;
+  padding: 6px 0 6px 0;
+  border-bottom:2px solid;
+  list-style-type: none;
+  font-size:18px;
+}
+
+#navigation ul li.topselected {
+  border-top: 2px solid;
+}
+
+#navigation ul li.top {
+  border-top: 2px solid;
+}
+
+
+/* content
+--------------------------------------------------*/
+#content {
+  float:right;
+  width:555px;
+  padding-top:32px;
+  padding-left:30px;
+  padding-bottom:40px;
+}
+
+
+/* headings
+--------------------------------------------------*/
+h1 {font-size:24px;}  /* for header title */
+
+h2 { /* for content text */
+  font-size:14px;
+  font-weight:normal;
+}
+
+h3 { /* for publications list */
+  font-size:14px;
+  font-weight:normal;
+}
+
+
+h5 { /* for publications list footnote*/
+  font-size:12px;
+  font-weight:normal;
+}
+
+
+/* html objects
+--------------------------------------------------*/
+a {text-decoration:none;}
+a img {border:none;}
+
+
+p {
+  margin:0;
+  padding:0 0 0px 0;
+}
+
+ul {
+  margin:0 0 0 6px;
+  padding:0 0 18px 0;
+}
+
+table {
+  margin:4px 0px;
+  text-align:center;
+  vertical-align:top;
+}
+
+td {
+  padding:2px;
+}
+
+
+img {
+  margin:0;
+  padding:0;
+  display:block;
+}
+
+
+
+/*extra div classes
+------------------------------------------------*/
+
+#caption {
+  font-weight:bold;
+  font-size:11px;
+  line-height:1.2em;
+  color:#666666;
+}
+
+td.caption {
+  font-weight:bold;
+  font-size:11px;
+  line-height:1.2em;
+  color:#666666;
+  padding: 2px 2px 4px 2px;
+}
+
+#publist li {
+  padding:6px 0;
+}
+
+
+
+
+
+
+
+
+

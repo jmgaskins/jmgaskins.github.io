@@ -1,0 +1,40 @@
+
+
+/* header
+----------------------------------------------------*/
+#header {border-color:#888888;}
+
+
+/* navigation
+--------------------------------------------------*/
+
+#navigation a {
+  color:black;
+}
+
+#navigation a:hover
+  {color:#888888;}
+
+#navigation ul li {
+border-color:#888888;
+}
+
+#navigation ul li.top {
+border-color:#888888;
+}
+  
+#navigation ul li.selected {
+	background-color:#CCCCCC;	
+
+}
+
+#navigation ul li.topselected{
+	background-color:#CCCCCC;
+	border-color:#888888;	
+	}
+
+
+
+
+
+
